@@ -3726,3 +3726,18 @@ GtkBubbleWindow .toolbar {
     box-shadow: 0 3px 5px 1px alpha(black, 0.5),
                 0 0 0 1px mix(shade(@titlebar_bg_color, 0.7), @titlebar_fg_color, 0.12);
 }
+
+/* Fix black background in some applications */
+GtkWindow {
+    color: @fg_color;
+    background-color: @bg_color;
+}
+GtkPaned {
+    background-color: @bg_color;
+}
+GtkEventBox {
+    background-color: @bg_color;
+}
+GtkGrid {
+	 background-color: @bg_color;
+}
