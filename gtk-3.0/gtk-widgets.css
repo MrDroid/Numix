@@ -3738,6 +3738,3 @@ GtkPaned {
 GtkEventBox {
     background-color: @bg_color;
 }
-GtkGrid {
-	 background-color: @bg_color;
-}
